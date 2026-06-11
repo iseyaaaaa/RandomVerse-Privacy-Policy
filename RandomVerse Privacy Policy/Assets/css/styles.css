@@ -15,6 +15,10 @@ body {
     align-items: center;
 }
 
+.img-bible {
+    width: 140px;
+}
+
 /* main container content */
 
 .main-container {
