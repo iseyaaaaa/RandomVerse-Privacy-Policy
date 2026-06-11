@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #F3F4F4;
+}
+
+.document-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main container content */
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+
+    gap: 80px;
+
+    padding: 80px 40px;
+
+    width: 100%;
+    max-width: 1024px;
+}
+
+.sub-heading {
+    font-size: 20px;
+}
+
+.text-group {
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+
+    gap: 40px;
+}
+
+.text-header {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.text-body {
+    opacity: .64;
+}
+
+/* main body content */
+
+.main-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 40px;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 16px;
+}
+
+.section-header {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.text-bullet {
+    list-style-type: disc;
+    margin-left: 16px;
+    opacity: .64;
+}
+
+@media (max-width: 425px) {
+    .main-container {
+        padding: 40px 16px;
+        gap: 24px;
+        margin-top: 80px;
+    }
+
+    .img-bible {
+        aspect-ratio: 1/1;
+        width: 100px;
+    }
+}
